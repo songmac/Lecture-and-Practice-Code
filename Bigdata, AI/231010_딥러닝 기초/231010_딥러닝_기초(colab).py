@@ -251,3 +251,4 @@ history = model.fit(X_train, y_train, validation_data=(X_valid, y_valid), epochs
 # 모델 평가하기
 accuracy = model.evaluate(X_valid, y_valid)[1]
 print(f"Validation Accuracy: {accuracy * 100:.2f}%")
+
