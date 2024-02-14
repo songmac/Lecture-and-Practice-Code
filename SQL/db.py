@@ -2,11 +2,11 @@ import pymysql
 
 # Mysql처럼 connection 맺기
 
-db = pymysql.connect(host='101.101.210.141', 
-                     port=3306, 
-                     user='study', # connection name
-                     passwd='study!@#$%',   
-                     db='ssy4748',  
+db = pymysql.connect(host='', 
+                     port=, 
+                     user='', # connection name
+                     passwd='',   
+                     db='',  
                      charset='utf8')
 
 
